@@ -1,0 +1,88 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(215, 215, 215, 0.68);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+  padding: 30px;
+  width: 150px;
+  min-width: 150px;
+}
+
+.pokemon-name {
+  margin: 0;
+  background-color: black;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.pokemon-types {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.pokemon-card.plante {
+  background-color: rgba(156, 236, 156, 0.373);
+  border-color: rgba(9, 106, 9, 0.941);
+}
+
+.pokemon-card.feu {
+  background-color: rgba(231, 146, 146, 0.373);
+  border-color: rgba(181, 47, 14, 0.941);
+}
+
+.pokemon-card.eau {
+  background-color: rgba(146, 189, 231, 0.373);
+  border-color: rgba(14, 100, 181, 0.941);
+}
+
+.plante .pokemon-name {
+  background-color: rgba(9, 106, 9, 0.941);
+}
+
+.feu .pokemon-name {
+  background-color: rgba(181, 47, 14, 0.941);
+}
+
+.eau .pokemon-name {
+  background-color: rgba(14, 100, 181, 0.941);
+}
+
+.plante .pokemon-types {
+  color: rgba(9, 106, 9, 0.941);
+}
+
+.feu .pokemon-types {
+  color: rgba(181, 47, 14, 0.941);
+}
+
+.eau .pokemon-types {
+  color: rgba(14, 100, 181, 0.941);
+}
+
+.chiffres {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 4px;
+  font-size: small;
+}
+
+.pokemon-stat {
+  margin-top: 3px;
+}
