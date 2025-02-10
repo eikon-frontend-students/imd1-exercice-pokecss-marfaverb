@@ -51,27 +51,27 @@
   border-color: rgba(14, 100, 181, 0.941);
 }
 
-.pokemon-name.plante {
+.plante .pokemon-name {
   background-color: rgba(9, 106, 9, 0.941);
 }
 
-.pokemon-name.feu {
+.feu .pokemon-name {
   background-color: rgba(181, 47, 14, 0.941);
 }
 
-.pokemon-name.eau {
+.eau .pokemon-name {
   background-color: rgba(14, 100, 181, 0.941);
 }
 
-.pokemon-types.plante {
+.plante .pokemon-types {
   color: rgba(9, 106, 9, 0.941);
 }
 
-.pokemon-types.feu {
+.feu .pokemon-types {
   color: rgba(181, 47, 14, 0.941);
 }
 
-.pokemon-types.eau {
+.eau .pokemon-types {
   color: rgba(14, 100, 181, 0.941);
 }
 
@@ -85,7 +85,4 @@
 
 .pokemon-stat {
   margin-top: 3px;
-}
-
-h1 {
 }
